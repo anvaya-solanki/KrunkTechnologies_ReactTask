@@ -1,23 +1,17 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import First from './components/First';
+import Second from './components/Second';
+import Third from './components/Third';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='bg-blueColor h-screen w-screen flex justify-center'>
+      <div className="bg-white p-2 rounded-lg border-7 border-white mt-14 w-96">
+        <First />
+        <Second />
+        <Third />
+      </div>
     </div>
   );
 }
