@@ -4,7 +4,7 @@ import SendMessage from './SendMessage';
 import Sendicon from '../images/Sendicon.png'
 const Third = () => {
   return (
-    <div className='bg-blueColor rounded-md p-2'>
+    <div className='bg-blueColor rounded-b-lg p-2'>
       <div className='flex justify-between items-center'>
         <SendMessage />
         <div className='bg-textColor rounded-lg w-16 h-7 ml-3'>

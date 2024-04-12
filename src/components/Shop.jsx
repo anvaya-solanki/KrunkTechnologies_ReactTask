@@ -3,6 +3,8 @@ import Bag from '../images/Bag.png'
 import Vector from '../images/Vector.png'
 import Right from '../images/chevron-right.png'
 import Filter from '../images/Filter.png'
+import cross from '../images/cross.png'
+import bluecross from '../images/bluecross.png'
 const Shop = () => {
   return (
     <>
@@ -35,8 +37,12 @@ const Shop = () => {
           <p className='text-xs text-gray-600'>Filter</p>
         </div>
       </div>
-      <div>
-        Filter
+      <div class="overflow-y-auto max-h-40 flex flex-wrap mt-1">
+        <div className="px-3 py-1 rounded mr-2 mb-2 bg-gray-100 inline-flex items-center border-2 border-textColor"><p class="text-textColor font-semibold mr-1">Strap - Long</p> <img src={bluecross} className='h-3 w-3' /></div>
+        <div className="px-3 py-1 rounded mr-2 mb-2 bg-gray-100 inline-flex items-center"><p class="text-gray-700 mr-1">Colour</p> <img src={cross} className='h-3 w-3' /></div>
+        <div className="px-3 py-1 rounded mr-2 mb-2 bg-gray-100 inline-flex items-center"><p class="text-gray-700 mr-1">Size</p> <img src={cross} className='h-3 w-3' /></div>
+        <div className="px-3 py-1 rounded mr-2 mb-2 bg-gray-100 inline-flex items-center"><p class="text-gray-700 mr-1">Brand</p> <img src={cross} className='h-3 w-3' /></div>
+        <div className="px-3 py-1 rounded mr-2 mb-2 bg-gray-100 inline-flex items-center"><p class="text-gray-700 mr-1">Material</p> <img src={cross} className='h-3 w-3' /></div>
       </div>
     </div>
     </>

@@ -6,8 +6,8 @@ import Third from './components/Third';
 
 function App() {
   return (
-    <div className='bg-blueColor h-screen w-screen flex justify-center overlfow-hidden'>
-      <div className="bg-white p-2 rounded-lg border-7 border-white mt-14 w-96">
+    <div className='bg-gradient-to-b from-blueColor to-white flex justify-center overlfow-hidden'>
+      <div className="bg-white p-2 rounded-xl border-7 border-white mt-8 mb-8 w-96">
         <First />
         <Second />
         <Third />
