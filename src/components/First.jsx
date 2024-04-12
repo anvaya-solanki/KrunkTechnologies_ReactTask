@@ -8,9 +8,7 @@ const First = () => {
       <div className='flex justify-between'>
         <div className='flex justify-center relative'>
             <img src={Timpu} alt="Timpu image" className='h-14 w-14 rounded-full relative -z-1' />
-            <div className="h-2 w-2 bg-green-500 rounded-full absolute bottom-0 right-0 mb-1 mr-1">
-              {/* Green dot */}
-            </div>
+            <div className="h-2 w-2 bg-green-500 rounded-full absolute bottom-0 right-0 mb-1 mr-1"></div>
         </div>
         <div className='pl-3'>
             <div className='flex justify-between'>
