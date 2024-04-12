@@ -12,7 +12,8 @@ module.exports = {
         graytwo: '#7A7F8C',
         borderColor: '#E3ECFF',
         messageboxone: '#E5EEFF',
-        messageboxtwo: '#DCF7C5'
+        messageboxtwo: '#DCF7C5',
+        tagColor: '#F2F7FF'
       },
     },
   },

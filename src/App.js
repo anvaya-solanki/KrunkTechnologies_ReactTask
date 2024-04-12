@@ -6,7 +6,7 @@ import Third from './components/Third';
 
 function App() {
   return (
-    <div className='bg-blueColor h-screen w-screen flex justify-center'>
+    <div className='bg-blueColor h-screen w-screen flex justify-center overlfow-hidden'>
       <div className="bg-white p-2 rounded-lg border-7 border-white mt-14 w-96">
         <First />
         <Second />
